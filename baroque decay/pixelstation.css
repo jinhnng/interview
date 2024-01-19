@@ -1,0 +1,186 @@
+body, html,a {cursor: url(runboy.gif), auto;}
+
+#background{
+background: rgb(243,37,255);
+background: linear-gradient(90deg, rgba(243,37,255,0.9878326330532213) 0%, rgba(20,42,133,1) 4%, rgba(243,37,255,1) 5%, rgba(126,36,253,1) 9%, rgba(178,36,254,1) 10%, rgba(113,36,252,1) 12%, rgba(139,36,253,1) 13%, rgba(8,35,250,1) 17%, rgba(205,8,250,1) 28%, rgba(216,14,250,1) 70%, rgba(24,35,250,1) 78%, rgba(8,35,250,1) 79%, rgba(156,36,253,1) 86%, rgba(126,36,252,1) 87%, rgba(186,36,254,1) 89%, rgba(136,36,254,1) 90%, rgba(243,37,255,0.9374124649859944) 94%, rgba(20,42,133,1) 96%, rgba(243,37,255,1) 100%);
+    
+}
+
+#j{
+    
+    z-index:1;
+}
+
+#s{
+    z-index: 1
+}
+
+
+#venus{
+    
+    z-index:0;
+}
+
+#introduction{
+    
+    font-size: 100px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border-top: 0px;
+    position: absolute; left: 350px;
+    
+    z-index: -1;
+    font-family: "true-gore", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:white;
+
+text-shadow: 0 0 18px rgba(255,255,255,.5), 0 0 15px rgba(255,255,255,.5);
+
+}
+#f1{
+font-family: "blonde-fraktur", serif;
+font-weight: 400;
+font-style: normal;
+    position: absolute;
+    font-size: 330px;
+    left: 1050px;
+    margin-top: 0px;
+    border-top: 0px;
+    
+    
+text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2), 13px -28px 11px rgba(206,27,19,0);
+color:#68FF64;
+
+}
+.nounderline{
+    text-decoration-line: none;
+    color: inherit;
+}
+#f2{
+    font-family: "pf-pixelscript", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 210px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 650px;
+    z-index: -1
+}
+#f3{
+    font-family: "dalliance-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 150px;
+    line-height: 60px;
+    
+text-shadow: 3px 2px 0px rgba(77,0,38,0.5), 6px 2px 3px rgba(77,0,13,0.5), 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 15px 2px 30px rgba(64,77,0,0.5), 2px 5px 16px rgba(0,0,0,0);
+color: #FF7052;
+
+
+
+
+
+
+}
+
+#f4{
+    font-family: "puffin-arcade-chrome", sans-serif;
+font-weight: 800;
+font-style: normal;
+    font-size: 330px;
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 650px;
+    z-index: -1;
+   
+background: #FFFFFF;
+background: linear-gradient(to bottom, #FFFFFF 10%, black 90%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   
+  
+}
+
+#f5{
+ font-family: "miller-display", serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 230px;
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 490px;
+    z-index: -2;
+    -moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+text-shadow: 0 0 15px black, 0 0 10px black, 2px 20px 16px black;
+color: black;
+
+   
+
+}
+#f6{
+font-family: "bd-kickrom-mono", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 150px;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 1450px;
+    line-height: 120px;
+   
+    
+color: white;
+   text-shadow: -1px 0px 25px rgba(7,8,34,1);;
+
+
+}
+#adress{
+font-family: "mon-nicolette-toscane", serif;
+font-weight: 400;
+font-style: normal;
+    position:absolute;
+    margin-bottom: 0px;
+    border-bottom: 20px;
+    padding-bottom: 0px;
+    bottom: -640px;
+    font-size: 100px;
+    line-height: 100px;
+}
+#adress2{
+font-family: "mon-nicolette-toscane", serif;
+font-weight: 400;
+font-style: normal;
+    position:absolute;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    bottom: -700px;
+    left: 1200px;
+    font-size: 60px;
+    line-height: 100px;
+    text-shadow:  #FF9A43 0px 0px 5px, #FF9A43 0px 0px 5px, #FF9A43 0px 0px 10px, #FF9A43 0px 0px 20px, #CE7042 0px 0px 8px, 2px 2px 2px rgba(206,112,66,0);
+
+}
+
+#f7{
+position:absolute;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    bottom: -370px;
+    left: 1100px;
+    font-size: 40px;
+    font-family: "pf-pixelscript", sans-serif;
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 3px red, 0 0 0.05em blue, 0 0 0.05em white;
+    line-height: 40px;
+  
+}

@@ -1,0 +1,110 @@
+
+
+
+
+
+#background{
+    background: rgb(243,243,247);
+    background: linear-gradient(180deg, rgba(243,243,247,1) 82%, rgba(157,233,103,1) 100%);
+    height :4080px;
+    background-repeat: no-repeat;
+}
+#title{
+
+    font-family: "pf-pixelscript", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 320px;
+    margin-top: -700px;
+    line-height: 400px;
+    position: absolute;
+    top: 0;
+    text-shadow: 2px 2px 3px red, 0 0 0.05em blue, 0 0 0.05em white;
+    margin-bottom: 0;
+   
+    
+}
+
+
+.newWord {
+    position: sticky ;
+    top: 80px;
+    display: inline-block;
+    
+    
+}
+.newWord:hover {
+     text-shadow: 2px 2px 3px red, 0 0 0.09em blue, 0 0 0.1em white;
+    top: 50px;
+    font-size: 105%;
+
+}
+
+.neon {
+   
+font-size: 530px;
+text-align: right;
+text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5), 2px 2px 2px rgba(206,89,55,0);
+color: #cd94ff;
+;
+    display: inline-block;
+    padding-top: 300px;
+    
+
+
+}
+#decay{
+    height: 790px;
+   
+
+}
+
+marquee {
+    overflow: visible;
+    display: block;
+}
+
+#y {
+    font-size: 300px;
+    display: inline-block;
+}
+#next{
+
+    
+    font-family: "pf-pixelscript", sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    position: absolute;
+    bottom: -2200px;
+    right: 80px;   
+    margin: 0;
+      animation: 3s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: white;
+    transform: scale(1);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  50% {
+    color: white;
+    transform: scale(1.1);
+    opacity: 1;
+    text-shadow: 2px 2px 3px red, 0 0 0.05em blue, 0 0 0.05em white;
+  
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+    opacity: 1;
+  
+  }
+   
+    }
+#iframe{
+ display: contents;
+}
+}
+
