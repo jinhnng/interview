@@ -102,6 +102,7 @@ background: linear-gradient(to bottom, #FFFFFF 10%, black 90%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
    
+   
   
 }
 
@@ -111,7 +112,7 @@ font-weight: 400;
 font-style: normal;
     font-size: 230px;
     position: absolute;
-    margin-top: 720px;
+    margin-top: 800px;
     margin-left: 490px;
     z-index: -2;
     -moz-transform: scale(1, -1);
@@ -142,19 +143,19 @@ color: white;
 
 }
 #adress{
-font-family: "mon-nicolette-toscane", serif;
+  font-family: "pf-pixelscript", sans-serif;
 font-weight: 400;
 font-style: normal;
     position:absolute;
     margin-bottom: 0px;
-    border-bottom: 20px;
+    border-bottom: 0px;
     padding-bottom: 0px;
-    bottom: -640px;
-    font-size: 100px;
+    bottom: -700px;
+    font-size: 60px;
     line-height: 100px;
 }
 #adress2{
-font-family: "mon-nicolette-toscane", serif;
+  font-family: "pf-pixelscript", sans-serif;
 font-weight: 400;
 font-style: normal;
     position:absolute;
@@ -163,7 +164,7 @@ font-style: normal;
     padding-bottom: 0px;
     bottom: -700px;
     left: 1200px;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 100px;
     text-shadow:  #FF9A43 0px 0px 5px, #FF9A43 0px 0px 5px, #FF9A43 0px 0px 10px, #FF9A43 0px 0px 20px, #CE7042 0px 0px 8px, 2px 2px 2px rgba(206,112,66,0);
 
@@ -182,5 +183,207 @@ position:absolute;
     color: white;
     text-shadow: 2px 2px 3px red, 0 0 0.05em blue, 0 0 0.05em white;
     line-height: 40px;
+    z-index: 1;
   
 }
+
+#f8{
+    font-family: "blonde-fraktur", serif;
+font-weight: 400;
+font-style: normal;
+    position: absolute;
+    font-size: 310px;
+    left: 370px;
+    margin-top: 880px;
+    border-top: 0px;
+    
+    
+text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2), 13px -28px 11px rgba(206,27,19,0);
+color:#f805fc;
+}
+  .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 2;
+        }
+
+        /* Styles for the pop-up container */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 2;
+            cursor: pointer;
+            border-radius: 40px;}
+
+            
+#popup1 {
+    
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(162,229,229,1) 3%, rgba(183,235,235,1) 5%, rgba(205,241,241,1) 7%, rgba(220,245,245,1) 10%, rgba(244,252,252,1) 13%, rgba(255,255,255,1) 100%); }
+        
+#popup1 h2{
+            color: white;
+           font-family: "true-gore", sans-serif;
+font-weight: 400;
+font-style: normal;
+            font-size: 40px;
+            text-shadow: 0 0 18px gray;
+        }
+
+#popup1 p{
+font-family: "miller-display", serif;
+font-weight: 400;
+font-style: normal;
+    font-size:17px;
+    color: darkgrey;
+    line-height:25px;
+}
+
+button{
+border-radius: 40px;
+    font-family: cursive;
+    position: relative;
+  
+}
+
+#popup2{
+   background: rgb(251,251,251);
+background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(244,251,244,1) 32%, rgba(222,250,222,1) 71%, rgba(203,250,203,1) 84%, rgba(154,249,168,1) 96%, rgba(105,247,132,1) 100%, rgba(255,255,255,1) 100%);
+}
+#popup2 h2{
+    font-family: "blonde-fraktur", serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 30px;
+    text-shadow: 0 0 18px gray;
+    line-height: 40px;
+}
+#popup2 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#popup3{
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 25%, rgba(220,177,209,1) 43%, rgba(220,177,209,1) 53%, rgba(148,187,233,1) 100%);
+}
+
+#popup3 h2{
+       font-family: "pf-pixelscript", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 27px;
+   
+    line-height: 30px;   
+}
+#popup3 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+#popup4{
+background: rgb(174,238,175);
+background: radial-gradient(circle, rgba(174,238,175,1) 0%, rgba(240,159,44,1) 100%);
+}
+#popup4 h2{
+      font-family: "dalliance-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 33px;
+    line-height: 35px;
+    color: white;
+   
+    
+}
+#popup4 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+#popup5{
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 25%, rgba(220,177,209,1) 43%, rgba(220,177,209,1) 53%, rgba(148,187,233,1) 100%);
+}
+
+#popup5 h2{
+  font-family: "puffin-arcade-chrome", sans-serif;
+font-weight: 800;
+font-style: normal;
+    font-size: 27px;
+   
+    line-height: 33px;   
+}
+#popup5 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+#popup6{
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 25%, rgba(220,177,209,1) 43%, rgba(220,177,209,1) 53%, rgba(148,187,233,1) 100%);
+}
+
+#popup6 h2{
+  font-family: "miller-display", serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow: 0 0 1px black, 0 0 2px black, 0.5px 2px 3px black;
+color: black;
+}
+#popup6 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+#popup7{
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 25%, rgba(220,177,209,1) 43%, rgba(220,177,209,1) 53%, rgba(148,187,233,1) 100%);
+   
+}
+
+#popup7 h2{
+ font-family: "bd-kickrom-mono", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+       text-shadow: 0 0 1px black, 0 0 2px black, 0.5px 2px 3px black;
+color: white;
+   
+}
+#popup7 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#popup11{
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 25%, rgba(220,177,209,1) 43%, rgba(220,177,209,1) 53%, rgba(148,187,233,1) 100%);
+   
+}
+
+#popup11 h2{
+
+      font-family: "blonde-fraktur", serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 30px;
+    text-shadow: 0 0 18px gray;
+    line-height: 40px;
+   
+}
+#popup11 p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
