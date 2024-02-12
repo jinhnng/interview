@@ -1,4 +1,4 @@
-body, html,a {cursor: url(runboy.gif), auto;}
+body, html,a {cursor: url(runboy2.gif), auto;}
 
 #background{
 background: rgb(243,37,255);
@@ -96,7 +96,7 @@ font-style: normal;
     margin-top: 570px;
     margin-left: 650px;
     z-index: -1;
-   
+    height: 270px;
 background: #FFFFFF;
 background: linear-gradient(to bottom, #FFFFFF 10%, black 90%);
 -webkit-background-clip: text;
